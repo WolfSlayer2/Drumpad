@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1F1C2C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+.main{
+    margin-top: 150px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#heading{
+    font-weight: 600;
+    text-shadow: 2px 2px 5px red;
+    font-size: 4rem;
+}
+
+.contain{
+    padding: 80px;
+    place-content: center;
+    display: flex;
+}
+
+.button{
+    flex-direction: row;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px red;
+    width: 80vw;
+    height: 22vh;
+    border-radius: 5px;
+    margin: 10px 15px;
+    background-color: #bcc5c8;
+    --color: black;
+    --hover: #e9d362;
+    /* border: 2px solid white; */
+    box-shadow: 0 8px 16px 15px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+button {
+    color: var(--color);
+    transition: 0.2s;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+
+.animation{
+    background-color: aquamarine;
+    color: #eee;
+    font-size: 3rem;
+}
